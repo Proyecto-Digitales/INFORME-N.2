@@ -2,6 +2,7 @@
 Para la presentación de los trabajos se establecererá el día y la hora máxima de fecha de entrega, para el efecto se creará un foro en el cual los estudiantes participarán con un mensaje indicando sus nombres completos, el tipo de actividad, el tema y el link del repositorio.
 
 Para la calificación cada grupo debe generar una hoja de cálculo con las matrices de calificación y debe compartir el documento con doalulema@espe.edu.ec
+
 1.PLANTEAMIENTO DEL PROBLEMA
 
 Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
@@ -14,6 +15,7 @@ Su formulación debe responder a tres criterios básicos:
 •Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
 •Concisión.
 •Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
+
 2.OBJETIVOS
 
 Los objetivos deben responder claramente la pregunta ¿Qué investigar? El objetivo de la investigación es el enunciado claro y preciso de las metas que se persiguen. En los objetivos de la investigación se detallan las acciones en las que debe emprender el investigador para contestar a las preguntas planteadas en la formulación y sistematización del problema y tiene como propósito el direccionar la investigación.
@@ -31,6 +33,7 @@ Deben presentar directa relación con el tema de investigación y entre sí mism
 Al finalizar la investigación, los objetivos han de ser identificables con los resultados; es decir, toda la investigación deberá estar respondiendo a los objetivos propuestos.
 
 Considerar la Taxonomía de Bloom
+
 3.ESTADO DEL ARTE
 
 El estado del arte describe las investigaciones más recientes y actuales que sobre un tema en específico se han realizado. La descripción es un texto académico que expone sistemáticamente los avances existentes acerca de un tema y es de carácter más cualitativo, en el que se detallan los resultados y enfoques de las investigaciones en torno al tema que cada investigación ha abonado al tema de estudio de interés del investigador que elabora el estado del arte. La descripción gira en torno esencial a cuatro elementos:
@@ -49,6 +52,7 @@ Se describe la teoría o conjunto teórico apropiado con la cual el investigador
 •Señalar la forma en que la investigación actual enriquece, amplía y profundiza el conocimiento teórico, sustantivo y metodológico acumulado en estudios previos.
 
 Para su desarrollo debe evitarse en lo posible redactar párrafos continuos de texto, para lo cual se debe utilizar mentefactos, cuadro comparativos, esquemas o mapas conceptuales
+
 5.DIAGRAMAS
 
 Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
