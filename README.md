@@ -81,15 +81,19 @@ En este punto se debe explicar cómo funcionan la implementación del programa, 
 9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 En este punto se debe especificar las aplicaciones secundarias necesarias, la configuración del terminal, así como cualquier otra información necesaria para que pueda funcionar el proyecto, tanto en hardware como en software.
+
 10.APORTACIONES
 
 En este punto se indicará todo lo adicional fruto de lo investigado que se haya agregado al trabajo.
+
 11.CONCLUSIONES
 
 Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
+
 12.RECOMENDACIONES
 
 Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
+
 13.CRONOGRAMA
 
 El estudiante detalla cada una de las tareas y actividades que va a ejecutar durante el desarrollo de su trabajo. Este cronograma debe representarse gráficamente mediante un “DIAGRAMA DE GANTT”, el cual de ser desarrollado con MICROSOFT PROJECT.
@@ -98,6 +102,7 @@ El estudiante detalla cada una de las tareas y actividades que va a ejecutar dur
 14.BIBLIOGRAFÍA
 
 Emplear normas APA para el informe e IEEE para el artículo
+
 15.ANEXOS
 
 15.1 MANUAL DE USUARIO
