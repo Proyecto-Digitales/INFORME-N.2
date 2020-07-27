@@ -240,4 +240,33 @@ https://www.tinkercad.com/things/jxkNseHqJ4V-contador-asincronico/editel?shareco
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual4.png)
 
 
+Nos presenta la interfaz de usuario
+
+Ahora procedemos a simular para observar nuestro circuito:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual5.PNG)
+
+Nota: tomar en cuenta que es debido registrarse antes en la plataforma Tinkercad para poder tener acceso, no se debe cambiar la frecuencia de la entrada de reloj. Ni cambiar el voltaje de entrada Vcc ya que podemos quemar los integrados. Evitar mover las conexiones ya que dañaría el diseño.
+
+
 15.2 HOJAS TÉCNICAS
+
+Datasheet 74HC293
+
+https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Hojas%20tecnicas/Datasheet74283.pdf
+
+Datasheet 74HC32
+
+https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Hojas%20tecnicas/Datasheet7432.pdf
+
+Datasheet 74HC74
+
+https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Hojas%20tecnicas/Datasheet7474.pdf
+
+Datasheet 74HC08
+
+https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Hojas%20tecnicas/datasheet7408.pdf
+
+Datasheet 4511
+
+https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Hojas%20tecnicas/Datasheetcd4511b.pdf
