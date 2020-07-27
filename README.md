@@ -1,4 +1,4 @@
-Contador asincronico mediante el uso de flip flops tipo D
+                                                    CONTADOR ASINCRONICO MEDIANTE LA IMPLEMENTACION DE FIP FLOPS TIPO D
 
 
 1.PLANTEAMIENTO DEL PROBLEMA
