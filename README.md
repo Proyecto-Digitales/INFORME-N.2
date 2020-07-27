@@ -70,6 +70,7 @@ Este punto hace referencia a las variables que se emplean dentro de un programa,
 8.EXPLICACIÓN DEL DISEÑO
 
 Contador en código binario.
+
 En esta etapa es necesario indicar que se utilizará un generador de señal de reloj (CLK) para los FLIP FLOP (FF), de igual forma usaremos una frecuencia aproximada de 1 Hz dados los valores de las resistencias R1 y R2 (330 Ohmios ).
 Tomaremos en cuenta que:
 - Un contador asíncrono tiene como principal característica que cada flip flop que lo compone tiene diferente señal de reloj (clk).
@@ -82,7 +83,7 @@ En esta parte vemos como se pasa de un estado al otro nuestra cuenta, lo que nos
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Tablas%20de%20transicion.PNG)
 
-                       Tabla de verdad de cambio de estados 
+                     Tabla de verdad de cambio de estados 
 
 Tabla de excitación del flip flop D
 
@@ -90,7 +91,7 @@ Ya que estamos usando un flip flop tipo D, tenemos la siguiente tabla, la cual n
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Tabla%20de%20exitacion.PNG)
 
- Tabla de exitacion de un flip flop tipo D
+          Tabla de exitacion de un flip flop tipo D
  
  Analizando el cambio de estado de cada columna tenemos el siguiente diagrama:
  
@@ -108,13 +109,13 @@ Implementación en proteus:
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%201.PNG)
 
-                                  Simulación en proteus
+                            Simulación en proteus
                   
 Ahora veremos la implementación en tinkercad                 
                   
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%202.png)
 
-                                                                               Simulación en Tinkercad
+                                                                  Simulación en Tinkercad
                 
                  
 9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
@@ -133,15 +134,67 @@ Nota: Es necesario tener instalado la versión 8.9 de proteus ya que si se desea
 
 10.APORTACIONES
 
-En este punto se indicará todo lo adicional fruto de lo investigado que se haya agregado al trabajo.
+Conversión de código binario de cuatro (4) bits a BCD.
+Al tener cuatro bits es posible manejar quince (15) combinaciones de entrada e igual número de combinaciones de salida. La tabla de valores para las posibles combinaciones es la siguiente:
+
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Binario%20a%20BCD.PNG)
+
+Mediante estas tablas es posible observar que los valores de las salidas son iguales hasta el número nueve (9) decimal y de ahí en adelante el código de salida aparece incrementado en seis (6) decimal respecto al código de entrada. Dado lo anterior es posible concebir un sumador que reciba como entradas A los valores del código binario y como entradas B el número seis (6) en binario (0 1 1 0) pero solo cuando la salida B4 tenga un valor de uno (1). Para obtener la expresión que brinde esta posibilidad se realizó el mapa de Karnaught para la salida B4, con el siguiente resultado:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Karnauth.PNG)
+
+Por lo tanto, se obtiene para B4 la siguiente expresión:
+
+B4 = A3A2 + A3A1 = A3(A2 + A1)
+
+El resultado de esta implementación se llevará a las entradas B3 y B2 del sumador con el fin de obtener el resultado deseado.
+
+Nota: Es necesario recordar que en la anterior descripción no tiene significado el hecho de no tener una secuencia consecutiva de valores. Así mismo en los valores de las entradas A serán ubicados los valores de salida de cada FF.
+
+“Decodificación” y presentación del resultado.
+Cada una de las salidas del sumador deben ser las entradas del decodificador/manejador que en este caso es el circuito 4511. A su vez este circuito arroja las salidas a, b, c, d, e, f  y g  a nivel alto que representan los siete (7) segmentos de un Display y específicamente uno de cátodo común. El Display utilizado es de la serie 5161 que tiene la siguiente distribución:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/display.PNG)
+
+Simulación.
+Para llevar a cabo la simulación de la implementación del circuito se utilizó la herramienta proteus. Como se muestra a continuación:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Aporte1.png)
+
+
+Para la demostración también se implemento en la plataforma Tinkercad como se muestra a continuación:
+
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/aporte2.png)
+
+
+
+
 
 11.CONCLUSIONES
 
-Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
+•	Para la implementación en primera instancia se realizó el análisis de la secuencia de números asignada y se obtuvieron las expresiones necesarias para llevar a cabo la implementación del contador en código binario. Luego se implementó un circuito que ya era conocido como lo es el conversor de código binario a BCD y por último se realizó una actividad conocida como es la decodificación y posterior visualización en Displays de siete segmentos.
+
+•	Teniendo en cuenta la investigación que se realizó y los resultados obtenidos teóricamente y en prácticamente podemos decir que una de la característica principal de los flip flop asíncronos, es que no comparten toda la misma entrada de reloj, algo muy importante ya que no cambian todos de estado al mismo tiempo. 
+
+
+•	En la realización de la simulación se pudo ratificar que los tiempos de retardo en la propagación de datos entre un FF y otro que se presentaban en la implementación asíncrona se vieron disminuidos y que éstos no se presentaban en secuencias de 30ns por cada FF sino que el retraso de 30ns ocurre una vez en cada cambio de estado.
+
+•El circuito se lo verificó mediante la implementación en el simulador proteus y el lab virtual Tinkercad, lo que nos indicó que la combinación de integrados de tegnología Cmos con TTL no trabajan como se esperaria que trabajen. 
+
+
 
 12.RECOMENDACIONES
 
-Se establecen en función del proyecto y constituyen la base para un funcionamiento adecuado.
+•	Es importante conocer cuál es la lógica de funcionamiento de los flip flops tipo D para futuros diseños. 
+
+•	Se recomienda no mezclar integrados de tecnología TTL con tecnología Cmos ya que sus diseños admiten diferentes valores de voltajes y corriente, en este diseño de lo realizo debido a la escasez de modelos de integrados en la plataforma de Tinkercad. 
+
+•	Se recomienda tener conocimientos previos sobre contadores y sus tablas de verdad para futuros diseños. 
+
+•	Es preciso planificar un cronograma con diagramas de Grant en las diferentes aplicaciones que existen y para el desarrollo se recomienda el software Project. 
+
 
 13.CRONOGRAMA
 
@@ -150,12 +203,41 @@ Se establecen en función del proyecto y constituyen la base para un funcionamie
 
 14.BIBLIOGRAFÍA
 
-Emplear normas APA para el informe e IEEE para el artículo
+Alulema, D. (2020). Circuitos Digitales. Quito, Ecuador.
+
+Floyd, T. (2006). Fundamentos de sistemas digitales. Madrid: Pearson.
+
+Ricoy, A. (14 de Junio de 2020). Appinventor en español. Obtenido de https://sites.google.com/site/contadorasincrono/flipflop
+
+Siliceo, R. (2018). Algoritmo de las operaciones aritmeticas aplicadas a los codigos binarios, octal, hexadecimal y BCD con sus respectivas conversiones. Ciudad de Mexico.
+
+
 
 15.ANEXOS
 
 15.1 MANUAL DE USUARIO
 
-Constituye un documento en el cual se ilustra con imágenes y un lenguaje claro cómo utilizar la aplicación, evitando mencionar código. Además debe presentar como armar, instalar o conectar la aplicación, evitando los esquemas circuitales.
+Para poder usar el contador sincrónico se debe tener instalado si es posible la versión más actual de proteus.
+Abriremos el archivo de la simulación
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual1.png)
+
+Nos presenta la interfaz de usuario del simulador:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual2.png)
+
+Procedemo a realizar la simulación hacuendo click en el botón de la parte inferior izquierda.
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual3.png)
+
+
+Nota: tomar en cuenta que no se debe cambiar la frecuencia de la entrada de reloj. Ni cambiar el voltaje de entrada Vcc ya que podemos quemar los integrados.
+
+Si queremos usar la implementación en tinkercad procederemos a entrar al siguiente link:
+
+https://www.tinkercad.com/things/jxkNseHqJ4V-contador-asincronico/editel?sharecode=qnTRplA-JvCfeY6Auv5toNln4Gi4wd6hVyGVvV7Ki40
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/manual4.png)
+
 
 15.2 HOJAS TÉCNICAS
