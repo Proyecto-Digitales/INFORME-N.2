@@ -43,8 +43,6 @@ El sitio web Wilaeba Electrónica nos dan muchos puntos a tomar en cuenta ademá
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/marco%20teorico%202.png)
 
-![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/marco%20teorico%204.png)
-
 5.DIAGRAMAS
 
 Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
@@ -110,18 +108,28 @@ Implementación en proteus:
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%201.PNG)
 
-                  Simulación en proteus
+                                  Simulación en proteus
                   
 Ahora veremos la implementación en tinkercad                 
                   
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%202.png)
 
-                  Simulación en Tinkercad
+                                                                               Simulación en Tinkercad
                 
                  
 9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
-En este punto se debe especificar las aplicaciones secundarias necesarias, la configuración del terminal, así como cualquier otra información necesaria para que pueda funcionar el proyecto, tanto en hardware como en software.
+EL diseño de nuestro contador asincróno de 4 bits se lo realizó mediante el uso de flip flops tipo D. Es por ello que se tomó en cuenta la revisión de nuestro circuito integrado, en este caso es el modelo 74HC74, el cual presentamos un fragmento a continuación:
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Data1.PNG)
+
+
+Es necesario que el usuario revise el datasheet de todos los circuitos integrados utilizados para que tenga una idea de que voltajes o corrientes soportan cada integrado, ademas de poder reconocer cada pin y cual es su función.
+En el datasheet podemos obervar todas las especificaciones que se tomó en cuenta en el diseño, todo esto con el objetivo de no mostrar errores en la simulación del circuito, y tomando en cuenta a una posible implementación con integrados reales en un futuro,
+
+Si el ususario desea comprobar el diseño del circuito lo puede hacer abriendo el archivo de la simulación en proteus o entrando a la plataforma Tinkercad en la cual se encuentra guardado el diseño implementado, tomando en cuenta que no prodrá modificar ninguna parte del circuito ya que ello conllevaria a fallas del circuito.
+
+Nota: Es necesario tener instalado la versión 8.9 de proteus ya que si se desea abrir la simulación en versiones antiguas puede ocurrir errores o no abrir el archivo.
 
 10.APORTACIONES
 
