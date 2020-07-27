@@ -96,7 +96,7 @@ Se establecen en función del proyecto y constituyen la base para un funcionamie
 
 13.CRONOGRAMA
 
-El estudiante detalla cada una de las tareas y actividades que va a ejecutar durante el desarrollo de su trabajo. Este cronograma debe representarse gráficamente mediante un “DIAGRAMA DE GANTT”, el cual de ser desarrollado con MICROSOFT PROJECT.
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Cronograma.PNG)
 
 
 14.BIBLIOGRAFÍA
