@@ -43,6 +43,8 @@ El sitio web Wilaeba Electrónica nos dan muchos puntos a tomar en cuenta ademá
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/marco%20teorico%202.png)
 
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/marco%20teorico%204.png)
+
 5.DIAGRAMAS
 
 Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
