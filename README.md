@@ -11,12 +11,12 @@ diseñar un circuito el cual nos permita observar en dos displays de 7 segmentos
 2.OBJETIVOS
 
 Objetivo general
-•	Implementar y comprobar el funcionamiento de un circuito contador ascendente asíncrono, implementado con flip-flop tipo D.
+Implementar y comprobar el funcionamiento de un circuito contador ascendente asíncrono, implementado con flip-flop tipo D.
 
 Objetivo específicos
-•	Investigar en funcionamiento de flip flops tipo D.
-•	Comprobar el funcionamiento del diseño del contador mediante la simulación en proteus e implementada en Tinkercad (laboratorio virtual).
-•	Convertir las salidas de cada flip flop de código BCD a decimal y mostrarlo en dos displays de 7 segmentos.
+Investigar en funcionamiento de flip flops tipo D.
+Comprobar el funcionamiento del diseño del contador mediante la simulación en proteus e implementada en Tinkercad (laboratorio virtual).
+Convertir las salidas de cada flip flop de código BCD a decimal y mostrarlo en dos displays de 7 segmentos.
 
 
 3.ESTADO DEL ARTE
