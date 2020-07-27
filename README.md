@@ -3,16 +3,10 @@
 
 1.PLANTEAMIENTO DEL PROBLEMA
 
-Formular correctamente un problema consiste básicamente, en reducirlo a sus aspectos y relaciones esenciales. Debe ser formulado con precisión, en una o varias preguntas concretas donde se relacionen las variables implicadas, por ejemplo: ¿qué efecto?, ¿en qué condiciones...?, ¿cuál es la probabilidad de...?, ¿cómo se relaciona... con...?, etc. Algunas condiciones que debe cumplir son:
-•Especificar lo que ha de determinarse o resolverse
-•Restringir el campo de estudio en un interrogante concreto
-•Enunciarse de una forma clara y unívoca, de modo que la respuesta sólo admita respuestas precisas
-•Susceptible de verificación empírica. No debe plantear juicios de valor sobre lo que es mejor o peor, sobre cómo debería ser idealmente la realidad, sino sobre cómo es realmente.
+Una de las aplicaciones de los flip flops son los contadores asincrónicos los cuales pueden ser implementados mediante el uso de flip flops tipo D, para ello deben estar conectados en cascada, así obtendremos
+en cada salida de los flip flops un bit del conteo, esta implementación plantea como reto principal la visualización de una secuencia no consecutiva de números decimales en dos Displays, para ello se deberá 
+diseñar un circuito el cual nos permita observar en dos displays de 7 segmentos el conteo de 0 a 15,. Al añadir dicho circuito ¿Afectara el funcionamiento de nuestro contador?
 
-Su formulación debe responder a tres criterios básicos:
-•Claridad. Cualquier persona que lea el problema debe entender a qué cuestiones se pretende responder con la investigación
-•Concisión.
-•Operatividad. El planteamiento operacional consiste en especificar no sólo el fenómeno, sino también en qué unidades va a ser medidos cada uno de estos efectos.
 
 2.OBJETIVOS
 
