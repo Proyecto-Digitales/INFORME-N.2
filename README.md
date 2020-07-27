@@ -82,13 +82,20 @@ En esta parte vemos como se pasa de un estado al otro nuestra cuenta, lo que nos
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Tablas%20de%20transicion.PNG)
 
-Tabla de verdad de cambio de estados 
+                       Tabla de verdad de cambio de estados 
 
 Tabla de excitación del flip flop D
+
 Ya que estamos usando un flip flop tipo D, tenemos la siguiente tabla, la cual nos muestra la respuesta a los cambios de estado que sufre el flip flop.
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Tabla%20de%20exitacion.PNG)
 
+ Tabla de exitacion de un flip flop tipo D
+ 
+ Analizando el cambio de estado de cada columna tenemos el siguiente diagrama:
+ 
+ ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Cambio%20de%20estados.png)
+ 
 
 En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
 
