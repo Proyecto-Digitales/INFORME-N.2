@@ -45,6 +45,29 @@ El sitio web Wilaeba Electrónica nos dan muchos puntos a tomar en cuenta ademá
 
 5.DIAGRAMAS
 
+Diagrama 1
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama1.jpg)
+
+Diagrama 2
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama2.jpg)
+
+Diagrama 3
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama3.jpg)
+
+Diagrama 4
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama4.jpg)
+
+Diagrama 5
+
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama5.jpg)
+
+
+
+
 Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
 •Diagramas de bloques.
 •Diagramas UML. (casos de uso-clase)
