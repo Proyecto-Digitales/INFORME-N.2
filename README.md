@@ -45,45 +45,31 @@ El sitio web Wilaeba Electrónica nos dan muchos puntos a tomar en cuenta ademá
 
 5.DIAGRAMAS
 
-Diagrama 1
+•Diagramas de bloques.
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama1.jpg)
 
-Diagrama 2
+•Diagramas UML. (casos de uso-clase)
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama2.jpg)
 
-Diagrama 3
+•Diagramas eléctricos.
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama3.jpg)
 
-Diagrama 4
 
-![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama4.jpg)
-
-Diagrama 5
+•Diagramas esquemáticos.
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/diagrama5.jpg)
 
 
 
-
-Los diagramas hacen referencia a una representación visual de lo que se ha desarrollado enfocado al software y al hardware. Los diagramas son:
-•Diagramas de bloques.
-•Diagramas UML. (casos de uso-clase)
-•Diagramas eléctricos.
-•Diagramas esquemáticos.
-
-Adicionalmente para el caso de diagramas eléctricos se debe hacer la explicación de los circuitos.
-
-
-
-
-
-
 6.LISTA DE COMPONENTES
 
-En este punto se indicará en una tabla todos los recursos que se han empleado para su desarrollo y todos los componentes electrónicos si fuera el caso.
+-Simulador Proteus version 8.9.
+
+-Laboratorio virtual Tinkercad.
+
 
 7.MAPA DE VARIABLES
 
