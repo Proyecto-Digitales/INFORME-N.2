@@ -108,9 +108,15 @@ Implementación en proteus:
 
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%201.PNG)
 
-    Simulación en proteus
-En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
+                  Simulación en proteus
+                  
+Ahora veremos la implementación en tinkercad                 
+                  
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/dise%C3%B1o%202.png)
 
+                  Simulación en Tinkercad
+                
+                 
 9.- DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 En este punto se debe especificar las aplicaciones secundarias necesarias, la configuración del terminal, así como cualquier otra información necesaria para que pueda funcionar el proyecto, tanto en hardware como en software.
