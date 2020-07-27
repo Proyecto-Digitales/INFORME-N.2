@@ -76,7 +76,14 @@ Tomaremos en cuenta que:
 - El temporizador está configurado a una frecuencia de 1 Hz, es decir que el contador aumentará de valor cada segundo.
 - Los integrados usados para los contadores con flip flops D serán el CD4013 y el 74hHC74. En nuestro caso usaremos el integrado 74HC74.
 
+Para empezar nuestro análisis tendremos que plantear los estados, en este caso de 4 bits será de 0000 a 1111 es decir un conteo de de 0 a 15.
+
+En esta parte vemos como se pasa de un estado al otro nuestra cuenta, lo que nos indica que las salidas de nuestros fip flops tendran una salida de 0 o 1. 
+
 ![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Tablas%20de%20transicion.PNG)
+Tabla de verdad de cambio de estados 
+
+
 
 En este punto se debe explicar cómo funcionan la implementación del programa, explicando los valores que requiere y los valores que devuelve.
 
