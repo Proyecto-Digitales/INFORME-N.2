@@ -67,13 +67,13 @@ El sitio web Wilaeba Electrónica nos dan muchos puntos a tomar en cuenta ademá
 6.LISTA DE COMPONENTES
 
 -Simulador Proteus version 8.9.
-
 -Laboratorio virtual Tinkercad.
+-Circuitos integrados 7474,7408,7432,74283,4511
 
 
 7.MAPA DE VARIABLES
 
-Este punto hace referencia a las variables que se emplean dentro de un programa, las cuales deben ser indicadas en la captura de una pantalla si son componentes visuales o especificados en una taba sin no son visibles en una interface. Se debe hacer referencia al tipo y la función que desempeñan en la aplicación.
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/mapa%20variables.jpg)
 
 
 8.EXPLICACIÓN DEL DISEÑO
