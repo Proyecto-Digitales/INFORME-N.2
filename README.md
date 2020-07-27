@@ -1,6 +1,5 @@
-Contador asincrónico mediante el uso de fip flops
+Contador asincronico mediante el uso de fip flops tipo D
 
-doalulema@espe.edu.ec
 
 1.PLANTEAMIENTO DEL PROBLEMA
 
