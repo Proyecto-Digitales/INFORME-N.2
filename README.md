@@ -96,7 +96,7 @@ Se establecen en función del proyecto y constituyen la base para un funcionamie
 
 13.CRONOGRAMA
 
-https://raw.githubusercontent.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Cronograma.PNG
+![alt text](https://github.com/Proyecto-Digitales/INFORME-N.2/blob/master/Img/Cronograma.PNG)
 
 
 14.BIBLIOGRAFÍA
