@@ -4,7 +4,7 @@
 1.PLANTEAMIENTO DEL PROBLEMA
 
 Una de las aplicaciones de los flip flops son los contadores asincrónicos los cuales pueden ser implementados mediante el uso de flip flops tipo D, para ello deben estar conectados en cascada, así obtendremos
-en cada salida de los flip flops un bit del conteo, esta implementación plantea como reto principal la visualización de una secuencia no consecutiva de números decimales en dos Displays, para ello se deberá 
+en cada salida de los flip flops un bit del conteo, esta implementación planea como reto principal la visualización de una secuencia no consecutiva de números decimales en dos Displays, para ello se deberá 
 diseñar un circuito el cual nos permita observar en dos displays de 7 segmentos el conteo de 0 a 15,. Al añadir dicho circuito ¿Afectara el funcionamiento de nuestro contador?
 
 
